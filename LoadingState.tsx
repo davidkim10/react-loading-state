@@ -23,7 +23,7 @@ interface ILoadingStateProps {
   width?: string | number;
 }
 
-const formatCSSValue = (value) =>
+const formatCSSValue = (value: string | number) =>
   typeof value === "number" ? `${value}px` : value;
 
 export const LoadingState: React.FC<ILoadingStateProps> = ({

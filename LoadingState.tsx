@@ -26,7 +26,7 @@ interface ILoadingStateProps {
 const formatCSSValue = (value) =>
   typeof value === "number" ? `${value}px` : value;
 
-const LoadingState: React.FC<ILoadingStateProps> = ({
+export const LoadingState: React.FC<ILoadingStateProps> = ({
   animation = "pulse",
   className,
   height = ".75rem",
@@ -49,5 +49,3 @@ const LoadingState: React.FC<ILoadingStateProps> = ({
 
   return <div className={classNames} style={styles}></div>;
 };
-
-export default LoadingState;

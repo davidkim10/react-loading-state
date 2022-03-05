@@ -32,7 +32,7 @@ const LoadingState: React.FC<ILoadingStateProps> = ({
   height = ".75rem",
   style,
   variant = "text",
-  width,
+  width = "100%",
 }) => {
   const styles = {
     height: formatCSSValue(height),

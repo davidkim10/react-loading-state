@@ -15,11 +15,11 @@ const config = {
 };
 
 interface ILoadingStateProps {
-  animation?: "pulse" | "wave";
+  animation?: keyof typeof config.animation;
   className?: string;
   height?: string | number;
   style?: React.CSSProperties;
-  variant?: "text" | "rect" | "circle";
+  variant?: keyof typeof config.variant;
   width?: string | number;
 }
 

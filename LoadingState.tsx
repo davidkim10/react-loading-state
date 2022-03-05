@@ -1,6 +1,6 @@
 import React from "react";
 import { getClassNames } from "./utils";
-import "./LoadingState.scss";
+import "./LoadingState.css";
 
 const config = {
   animation: {

@@ -2,7 +2,7 @@
 
 A component I use often to create various loading states on the front-end. Supports 2 different types of animation and 3 shape variations.
 
-This component is very similar to Material UI's loading state. I actually wanted their loading state without downloading their entire lib so I created my own using MUI as inspiration.  
+Inspired by Material UI's loading state.  
 
 Demo: https://codesandbox.io/s/react-loading-state-component-4wfk5i
 
